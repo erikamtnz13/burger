@@ -1,0 +1,31 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). It  follows the MVC design pattern; uses  Node and MySQL to query and route data, and Handlebars to generate your HTML.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "mysql": "^2.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikamtnz13/burger.git"
+  },
+  "keywords": [
+    "Eat_the_Burger"
+  ],
+  "author": "EM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikamtnz13/burger/issues"
+  },
+  "homepage": "https://github.com/erikamtnz13/burger#readme"
+}
